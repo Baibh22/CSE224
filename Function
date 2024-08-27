@@ -1,0 +1,18 @@
+fun anytask(): Int{
+    var a=20;
+    var b=30;
+    val c=a+b;
+    return c;
+}
+
+fun sum1(number1: Int,number2:Int) : Int{
+    val add=number1+number2
+    return add
+}
+
+fun main() {
+    val x=anytask();
+    val y=sum1(40,50);
+    println(x);
+    print(y);
+}
